@@ -2,26 +2,27 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Hariom Chaturvedi', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, I am',
+  name: 'Hariom Chaturvedi',
+  subtitle: 'a Playboy',
+  cta: 'Know More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am passionate about CyberSecurtiy, enjoy playing CTFs and to root machines.',
+  paragraphTwo:
+    'Apart from Security I practice my problem solving skills with Competitive Programming. Rated 3* on CodeChef.',
+  paragraphThree: 'Blah blah blah',
+  resume: 'https://drive.google.com/file/d/1MKk4vayBFau9ZyJluuP1ixcS2cUVyVdd/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'hariom4694@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +69,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/HariChaturved',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hariom-chaturvedi/',
+    },
+    {
+      id: nanoid(),
+      name: 'whatsapp',
+      url: 'https://wa.me/918859354694',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/hariomch',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
