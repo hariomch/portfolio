@@ -58,6 +58,15 @@ const About = () => {
                     >
                       Resume
                     </a>
+                    <div className="px-md-3 inactive" />
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume "
+                      href="mailto:hariom4694@gmail.com"
+                    >
+                      Hire Me
+                    </a>
                   </span>
                 )}
               </div>
