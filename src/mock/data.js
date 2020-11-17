@@ -30,18 +30,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Flat-Bait',
+    info:
+      'A native app intended to minimize the efforts in finding house maid and cooks. Build using MERN stack.',
+    info2:
+      'This app basically locates available household workers near you. It simplifies the efforts for users, by showing them workers at the comfort of their home.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/hariomch/flat-bait', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Digi Farming',
+    info:
+      'A ML based regression model to tell the amount of irrigation needed for optimal growing of tomatoes.',
+    info2:
+      'It takes input parameters as temperature and humidity and computes the watering needed for the crop.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
