@@ -9,19 +9,20 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, I am',
+  title: ' ',
   name: 'Hariom Chaturvedi',
-  subtitle: 'a Playboy',
+  subtitle: 'Cybersecurity student',
   cta: 'Know More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am passionate about CyberSecurtiy, enjoy playing CTFs and to root machines.',
+  paragraphOne:
+    'Cybersecurity student, proficient in solving CTF problems and owning online boxes. Earned 3 badges, hacked into 15+ machines and solved 10+ rooms on tryhackme',
   paragraphTwo:
-    'Apart from Security I practice my problem solving skills with Competitive Programming. Rated 3* on CodeChef.',
-  paragraphThree: 'Blah blah blah',
+    'Diligent competitve programmer. Ranked 1927 in Google Kickstart 2020 Round C. Rated 3* on CodeChef.',
+  paragraphThree: ' ',
   resume: 'https://drive.google.com/file/d/1MKk4vayBFau9ZyJluuP1ixcS2cUVyVdd/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -40,20 +41,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'digi_farming.jpg',
     title: 'Digi Farming',
     info:
       'A ML based regression model to tell the amount of irrigation needed for optimal growing of tomatoes.',
     info2:
       'It takes input parameters as temperature and humidity and computes the watering needed for the crop.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Uchiha-DF/DigiFarming', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'puzzle_game.jpg',
+    title: 'Puzzle',
+    info: 'A Java based puzzle game with multiple levels.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
