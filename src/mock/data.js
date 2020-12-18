@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'Diligent competitve programmer. Ranked 1927 in Google Kickstart 2020 Round C. Rated 3* on CodeChef.',
   paragraphThree: ' ',
-  resume: 'https://drive.google.com/file/d/1MKk4vayBFau9ZyJluuP1ixcS2cUVyVdd/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1yCqLUm0ZXeIh34PtzZ9QUgSNuLeIcKWR/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
