@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'Diligent competitve programmer. Ranked 1927 in Google Kickstart 2020 Round C. Rated 3* on CodeChef.',
   paragraphThree: ' ',
-  resume: 'https://drive.google.com/file/d/1yCqLUm0ZXeIh34PtzZ9QUgSNuLeIcKWR/view?usp=sharing', // if no resume, the button will not show up
+  blog: 'https://blog.findhariom.tech', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -41,6 +41,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'netmamba.png',
+    title: 'NetMamba',
+    info: 'CLI tool written in python to scan for hosts in a network.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/hariomch/py-netmamba', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'digi_farming.jpg',
     title: 'Digi Farming',
     info:
@@ -49,15 +58,6 @@ export const projectsData = [
       'It takes input parameters as temperature and humidity and computes the watering needed for the crop.',
     url: '',
     repo: 'https://github.com/Uchiha-DF/DigiFarming', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'puzzle_game.jpg',
-    title: 'Puzzle',
-    info: 'A Java based puzzle game with multiple levels.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
@@ -81,11 +81,11 @@ export const footerData = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/hariom-chaturvedi/',
     },
-    {
-      id: nanoid(),
-      name: 'whatsapp',
-      url: 'https://wa.me/918859354694',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'whatsapp',
+    //   url: 'https://wa.me/918859354694',
+    // },
     {
       id: nanoid(),
       name: 'github',
