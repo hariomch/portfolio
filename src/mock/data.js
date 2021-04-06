@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.png',
   paragraphOne:
     'Cybersecurity student, proficient in solving CTF problems and owning online boxes. Earned 3 badges, hacked into 15+ machines and solved 10+ rooms on tryhackme',
   paragraphTwo:
