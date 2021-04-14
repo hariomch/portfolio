@@ -49,14 +49,14 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {/* <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
                         See Live
-                      </a>
+                      </a> */}
 
                       {repo && (
                         <a
@@ -82,7 +82,7 @@ const Projects = () => {
                     <div className="project-wrapper__image">
                       <a
                         href={url || '#!'}
-                        target="_blank"
+                        // target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >

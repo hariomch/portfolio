@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    'Cybersecurity student, proficient in solving CTF problems and owning online boxes. Earned 3 badges, hacked into 15+ machines and solved 10+ rooms on tryhackme',
+    'I am a Cybersecurity enthusiast and a competitive programmer. Most of my time is spent on hacking into machines, writing writeups to Boot2Root machines, participating in CTFs and various coding contests.',
   paragraphTwo:
-    'Diligent competitve programmer. Ranked 1927 in Google Kickstart 2020 Round C. Rated 3* on CodeChef.',
+    'Apart from the technicals, I write blogs focussing to simplify Cybersecurity concepts.',
   paragraphThree: ' ',
   blog: 'https://blog.findhariom.tech', // if no resume, the button will not show up
 };
@@ -63,7 +63,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Want to get in touch?',
   btn: '',
   email: 'hariom4694@gmail.com',
 };
@@ -84,13 +84,18 @@ export const footerData = {
     // {
     //   id: nanoid(),
     //   name: 'whatsapp',
-    //   url: 'https://wa.me/918859354694',
+    //   url: '',
     // },
     {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/hariomch',
     },
+    // {
+    //   id: nanoid(),
+    //   name: 'blog',
+    //   url: 'https://blog.findhariom.tech',
+    // },
   ],
 };
 
