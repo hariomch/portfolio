@@ -91,11 +91,6 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/hariomch',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'blog',
-    //   url: 'https://blog.findhariom.tech',
-    // },
   ],
 };
 

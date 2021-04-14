@@ -44,6 +44,7 @@ const Header = () => {
           <Link to="about" smooth duration={1000}>
             <i
               className="fa fa-angle-down fa-2x text-primary position-absolute top-100 start-50 translate-middle-x"
+              style={{ marginTop: '150px' }}
               aria-hidden="true"
             />
           </Link>
