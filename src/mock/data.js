@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Hariom Chaturvedi',
-  subtitle: 'Pentester',
+  subtitle: 'Cybersecurity Enthusiast',
   cta: 'Know More',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    'I am a Cybersecurity enthusiast and a competitive programmer. Most of my time is spent on hacking into machines, writing writeups to Boot2Root machines, participating in CTFs and various coding contests.',
+    'I am Cybersecurity Enthusiast and a competitive programmer, currently pursuing Computer Science and Engineering from Dayananda Sagar College of Engineering. I practice my ethical hacking skills on tryhackme, hackthebox, and by participating in CTFs. Appart from these, I write blogs and writeups focussing on security concepts.',
   paragraphTwo:
-    'Apart from the technicals, I write blogs focussing to simplify Cybersecurity concepts.',
+    'Currently, I am contributing to PcapMonkey under the Google Summer of Code 2021. Where I work on Elastic SIEM, Zeek and Suricata',
   paragraphThree: ' ',
   blog: 'https://blog.findhariom.tech', // if no resume, the button will not show up
 };
